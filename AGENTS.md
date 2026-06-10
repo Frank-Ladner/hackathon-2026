@@ -8,6 +8,8 @@
 - Aendere nur Dateien, die fuer die aktuelle Aufgabe noetig sind.
 - Erklaere nicht offensichtliche Entscheidungen kurz im Code oder in der Antwort.
 - Halte Commits, Patches und Antworten klein, nachvollziehbar und fokussiert.
+- Nutze fuer Python- und Streamlit-Befehle immer die lokale virtuelle Umgebung:
+  `.venv/bin/python` und `.venv/bin/streamlit`
 
 ## Entwicklungsprozess
 Fuer jede neue Anforderung:
