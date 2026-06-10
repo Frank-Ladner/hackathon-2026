@@ -7,7 +7,8 @@ import streamlit as st
 GRID_SIZE = 4
 TOTAL_FIELDS = GRID_SIZE * GRID_SIZE
 MAX_ROUNDS = 20
-POINTS_PER_SECOND = 100
+MAX_POINTS_PER_ROUND = 1000
+POINT_LOSS_PER_SECOND = 200
 
 
 def choose_new_target(current_position: int | None = None) -> int:
@@ -20,7 +21,8 @@ def choose_new_target(current_position: int | None = None) -> int:
 
 
 def calculate_points(elapsed_seconds: float) -> int:
-    return round(elapsed_seconds * POINTS_PER_SECOND)
+    points = MAX_POINTS_PER_ROUND - elapsed_seconds * POINT_LOSS_PER_SECOND
+    return max(0, round(points))
 
 
 def start_next_round(current_position: int | None = None) -> None:
