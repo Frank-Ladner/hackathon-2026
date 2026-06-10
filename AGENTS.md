@@ -56,6 +56,14 @@ Nicht direkt mit der Implementierung beginnen, wenn Anforderungen oder Akzeptanz
 - Bestehende Architektur respektieren
 - Nur refaktorieren, wenn ein klarer Nutzen entsteht
 
+## Entscheidungsfindung
+
+Bei mehreren technischen Loesungen:
+
+- Die einfachste funktionierende Loesung bevorzugen.
+- Komplexere Alternativen nur vorschlagen, wenn ein klarer Nutzen entsteht.
+- Architekturentscheidungen kurz begruenden.
+
 ## Review
 
 Bei größeren Änderungen:
