@@ -47,3 +47,20 @@ Nicht direkt mit der Implementierung beginnen, wenn Anforderungen oder Akzeptanz
 - Pruefe Streamlit-Aenderungen mindestens manuell im Browser, wenn moeglich.
 - Halte Linting-/Formatierungsfehler aus geaenderten Dateien heraus.
 - Dokumentiere nicht ausgefuehrte Checks kurz mit Grund.
+
+## Architekturprinzipien
+
+- Einfachheit vor Komplexität
+- Lesbarkeit vor Cleverness
+- Wartbarkeit vor kurzfristiger Optimierung
+- Bestehende Architektur respektieren
+- Nur refaktorieren, wenn ein klarer Nutzen entsteht
+
+## Review
+
+Bei größeren Änderungen:
+
+- Risiken benennen
+- Technische Schulden benennen
+- Alternative Lösungsansätze kurz erwähnen
+- Offene Punkte dokumentieren
