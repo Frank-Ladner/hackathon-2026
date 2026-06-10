@@ -1,5 +1,3 @@
-# AGENTS.md
-
 ## Projektkontext
 - Dieses Repository ist ein Lernprojekt fuer Python, Streamlit und Codex.
 - Ziel ist verstaendlicher, wartbarer Code, der Lernfortschritt sichtbar macht.
@@ -10,6 +8,17 @@
 - Aendere nur Dateien, die fuer die aktuelle Aufgabe noetig sind.
 - Erklaere nicht offensichtliche Entscheidungen kurz im Code oder in der Antwort.
 - Halte Commits, Patches und Antworten klein, nachvollziehbar und fokussiert.
+
+## Entwicklungsprozess
+Fuer jede neue Anforderung:
+1. Anforderungen analysieren
+2. Akzeptanzkriterien formulieren
+3. Zielarchitektur skizzieren
+4. Implementierung in kleinen Schritten
+5. Tests und Checks durchfuehren
+6. Manuelle Testschritte dokumentieren
+7. Refactoring nur bei erkennbarem Nutzen
+Nicht direkt mit der Implementierung beginnen, wenn Anforderungen oder Akzeptanzkriterien unklar sind.
 
 ## Code Style
 - Schreibe idiomatisches Python mit klaren Namen und kleinen Funktionen.
